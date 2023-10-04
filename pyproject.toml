@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "apigee-python-client"
+version = "0.7.0"
+description = ""
+authors = ["Hugo PICQ <picq.hugo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "apigee_python_client*"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+google-auth = "^2.22.0"
+pydantic = "^2.1.1"
+requests = "^2.31.0"
+pytest = "^7.4.0"

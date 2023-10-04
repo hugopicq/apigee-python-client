@@ -1,0 +1,1 @@
+APIGEE_API_URL = "https://apigee.googleapis.com/v1"
